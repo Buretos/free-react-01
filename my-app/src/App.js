@@ -1,13 +1,14 @@
-import './App.css';
-
-function App() {
-	return (
-		<div className="App">
-			<header className="App-header">
-				<p>Привет, Мир!</p>
-			</header>
-		</div>
-	);
+function Profile() {
+	return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Катерина Джонсон" />;
 }
 
-export default App;
+export default function Gallery() {
+	return (
+		<section>
+			<h1>Потрясающие учёные</h1>
+			<Profile />
+			<Profile />
+			<Profile />
+		</section>
+	);
+}
